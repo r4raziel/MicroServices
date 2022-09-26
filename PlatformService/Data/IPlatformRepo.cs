@@ -1,6 +1,6 @@
-using PaltformService.Models;
+using PlatformService.Models;
 
-namespace PaltformService.Data
+namespace PlatformService.Data
 {
     public interface IPlatformRepo
     {

@@ -1,8 +1,8 @@
 using AutoMapper;
-using PaltformService.Dtos;
-using PaltformService.Models;
+using PlatformService.Dtos;
+using PlatformService.Models;
 
-namespace PaltformService.Profiles
+namespace PlatformService.Profiles
 {
 
     public class PlatformsProfile : Profile

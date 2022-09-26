@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using PaltformService.Data;
+using PlatformService.Data;
+using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,6 +23,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    Console.WriteLine($"--> CommandService Endpoint {builder.Configuration["CommandService"]}");
 }
 
 app.UseHttpsRedirection();
