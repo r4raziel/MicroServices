@@ -16,3 +16,19 @@ spec:
       containers:
         - name: platformservice
           image: vxtredge/platformservice:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: platforms-clusterip-srv
+  namespace: microservices
+spec:
+  type: ClusterIP
+  selector:
+    app:  platformservice
+  ports:
+  - name: platformservice
+    protocol: TCP
+    port: 80
+    targetPort: 80
+    
