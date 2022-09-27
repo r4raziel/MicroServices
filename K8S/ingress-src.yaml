@@ -1,14 +1,13 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  labels:
-    app.kubernetes.io/component: controller
-  name: nginx-example
+  name: ingress-srv
   annotations:
-    ingressclass.kubernetes.io/is-default-class: "true"
-spec:  
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
   rules:
-    - host: acme.com:3667
+    - host: acme.com
       http:
         paths:
           - path: /api/platforms

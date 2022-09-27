@@ -2108,25 +2108,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shahzad.Ilyas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\PCF\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj",
+      "projectUniqueName": "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj",
-      "packagesPath": "C:\\Users\\Shahzad.Ilyas\\.nuget\\packages\\",
-      "outputPath": "D:\\VsProjects\\MicroServices\\PlatformService\\obj\\",
+      "projectPath": "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj",
+      "packagesPath": "C:\\Users\\PCF\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\Microservices\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shahzad.Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PCF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2135,9 +2133,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/pdco-fuse/_packaging/FusePackages/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/pdco-pattersonplatform/_packaging/PattersonPlatformPackages/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
