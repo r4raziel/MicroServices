@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mssql-deply
+  namespace: microservices
+spec:
+  selector:
+    matchLabels:
+      app: mssql  
+  template:
+    metadata:
+      labels:
+        app: mssql
+    spec:
+      containers:
+      - image: mcr.microsoft.com/mssql/server:2019-latest
+        name: mssql
+        env:
+          # Use secret in real usage
+        - name: mssql_PID
+          value: "Express"
+        - name: ACCEPT_EULA
+          value: "Y"
+        - name: SA_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mssql
+              key: SA_PASSWORD
+        ports:
+        - containerPort: 1433
+          name: mssqldb
+        volumeMounts:
+        - name: mssqldb
+          mountPath: /var/opt/mssql/data
+      volumes:
+      - name: mssqldb
+        persistentVolumeClaim:
+          claimName: mssql-pv-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-clusterip-srv
+  namespace: microservices
+spec:
+  type: ClusterIP
+  selector:
+    app:  mssql
+  ports:
+  - name: mssql
+    protocol: TCP
+    port: 1433
+    targetPort: 1433
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-loadbalancer
+  namespace: microservices
+spec:
+  type: LoadBalancer
+  selector:
+    app:  mssql
+  ports:
+  - name: mssql
+    protocol: TCP
+    port: 3033
+    targetPort: 1433
