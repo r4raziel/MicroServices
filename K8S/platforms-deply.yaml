@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: platforms-depl
+  name: platforms-deply
   namespace: microservices
 spec:
   replicas: 1
