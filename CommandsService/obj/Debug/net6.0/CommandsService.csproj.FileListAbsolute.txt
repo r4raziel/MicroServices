@@ -35,7 +35,6 @@ F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
 F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\appsettings.Development.json
-D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\appsettings.json
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\CommandsService.exe
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\CommandsService.deps.json
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\CommandsService.runtimeconfig.json
@@ -70,3 +69,5 @@ D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\refint\CommandsServ
 D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
 D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
+D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\appsettings.Production.json
+D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll

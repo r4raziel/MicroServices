@@ -64,7 +64,6 @@ F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\PlatformService.pdb
 F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\PlatformService.genruntimeconfig.cache
 F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\ref\PlatformService.dll
 D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\appsettings.Development.json
-D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\appsettings.json
 D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\appsettings.Production.json
 D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\PlatformService.exe
 D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\PlatformService.deps.json
@@ -128,3 +127,4 @@ D:\VsProjects\MicroServices\PlatformService\obj\Debug\net6.0\refint\PlatformServ
 D:\VsProjects\MicroServices\PlatformService\obj\Debug\net6.0\PlatformService.pdb
 D:\VsProjects\MicroServices\PlatformService\obj\Debug\net6.0\PlatformService.genruntimeconfig.cache
 D:\VsProjects\MicroServices\PlatformService\obj\Debug\net6.0\ref\PlatformService.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\RabbitMQ.Client.dll

@@ -1,12 +1,13 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 if (builder.Environment.IsProduction())
- { 
+{
     var sqlConBuilder = new SqlConnectionStringBuilder();
     sqlConBuilder.ConnectionString = builder.Configuration.GetConnectionString("PlatformsConnection");
     Console.WriteLine("---> using SqlServer Db");
@@ -14,8 +15,8 @@ if (builder.Environment.IsProduction())
 }
 else
 {
-  Console.WriteLine("---> using InMem Db");
-  builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMemory"));
+    Console.WriteLine("---> using InMem Db");
+    builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMemory"));
 }
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -26,7 +27,7 @@ builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
-
+builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
 
 var app = builder.Build();
