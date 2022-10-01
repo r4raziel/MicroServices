@@ -6,7 +6,6 @@ F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\CommandsService.cspro
 F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\CommandsService.MvcApplicationPartsAssemblyInfo.cs
 F:\Projects\Microservices\CommandsService\obj\Debug\net6.0\CommandsService.MvcApplicationPartsAssemblyInfo.cache
 F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\appsettings.Development.json
-F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\appsettings.json
 F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\CommandsService.exe
 F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\CommandsService.deps.json
 F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\CommandsService.runtimeconfig.json
@@ -71,3 +70,9 @@ D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\CommandsService.gen
 D:\VsProjects\MicroServices\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\appsettings.Production.json
 D:\VsProjects\MicroServices\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\appsettings.Production.json
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\Google.Protobuf.dll
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\Grpc.Core.Api.dll
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\Grpc.Net.Client.dll
+F:\Projects\Microservices\CommandsService\bin\Debug\net6.0\Grpc.Net.Common.dll

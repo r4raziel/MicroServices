@@ -8,6 +8,7 @@
 
   <ItemGroup>   
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />   
+    <PackageReference Include="Grpc.AspnetCore" Version="2.49.0" />   
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />   
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,6 +18,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />   
     <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />   
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\platforms.proto" GrpcServices="Server"/>
   </ItemGroup>
 
 </Project>

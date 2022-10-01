@@ -1,26 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj": {}
+    "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj": {
+    "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\VsProjects\\MicroServices\\PlatformService\\PlatformService.csproj",
-        "packagesPath": "C:\\Users\\Shahzad.Ilyas\\.nuget\\packages\\",
-        "outputPath": "D:\\VsProjects\\MicroServices\\PlatformService\\obj\\",
+        "projectPath": "F:\\Projects\\Microservices\\PlatformService\\PlatformService.csproj",
+        "packagesPath": "C:\\Users\\PCF\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Microservices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6\\",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shahzad.Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Users\\PCF\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,11 +25,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/pdco-fuse/_packaging/FusePackages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/pdco-pattersonplatform/_packaging/PattersonPlatformPackages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -53,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Grpc.AspnetCore": {
+              "target": "Package",
+              "version": "[2.49.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
