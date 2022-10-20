@@ -135,3 +135,10 @@ F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\refint\PlatformServic
 F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\PlatformService.pdb
 F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\PlatformService.genruntimeconfig.cache
 F:\Projects\Microservices\PlatformService\obj\Debug\net6.0\ref\PlatformService.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Google.Protobuf.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.Core.Api.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.Net.Client.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+D:\VsProjects\MicroServices\PlatformService\bin\Debug\net6.0\Grpc.Net.Common.dll

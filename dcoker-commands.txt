@@ -1,0 +1,30 @@
+docker --version
+docker-compose up -d
+docker-compose stop
+docker image ls
+docker container ls
+docker run -p Hostport:containerport image
+docker run -p 8181:80 -d vxtredge/platform <---detach mode
+docker ps 	---> shows running containers
+docker ps -a --- shows all running and stopped
+docker stop "container-id"
+docker rm -f "container-id"/"container-name"
+docker rm -f Freddy-Krueger       ---stop and remove container
+docker run -d -p 6667:80 --name docker-tutorial vxtredge/docker101tutorial
+-------------------------------------------------
+docker image tag centos vxtredge/centos  --> this will tag an image
+docker run -i -t vxtredge/centos
+docker run -i -t  --name Freddy-Krueger vxtredge/centos
+-i, --interactive
+-t, --tty (“allocate a pseudo-TTY”, i.e. a terminal)
+(see docker run --help for details)
+
+$ docker run -i -t vxtredge/centos
+---------------------------------------
+
+docker build -t vxtredde/platform . <---- dot must be added
+docker push vxtredge/platform ---> push to resgitery
+
+
+--------------------- Formatting---------------
+docker ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"

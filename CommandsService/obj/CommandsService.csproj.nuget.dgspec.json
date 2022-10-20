@@ -1,23 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\Microservices\\CommandsService\\CommandsService.csproj": {}
+    "D:\\VsProjects\\MicroServices\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\Microservices\\CommandsService\\CommandsService.csproj": {
+    "D:\\VsProjects\\MicroServices\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\Microservices\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "D:\\VsProjects\\MicroServices\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "F:\\Projects\\Microservices\\CommandsService\\CommandsService.csproj",
-        "packagesPath": "C:\\Users\\PCF\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\Microservices\\CommandsService\\obj\\",
+        "projectPath": "D:\\VsProjects\\MicroServices\\CommandsService\\CommandsService.csproj",
+        "packagesPath": "C:\\Users\\Shahzad.Ilyas\\.nuget\\packages\\",
+        "outputPath": "D:\\VsProjects\\MicroServices\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PCF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shahzad.Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +28,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

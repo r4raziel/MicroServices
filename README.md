@@ -1,1 +1,5 @@
-"# MicroServices" 
+"# MicroServices"
+kubectl create secret generic mssql --from-literal=SA_PASSWORD="pa55w@rd!"
+netstat -ano | findstr 1433
+net stop hns
+net start hns
